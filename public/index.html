@@ -169,39 +169,43 @@
         </div>
       </div>
     </div>
-    <div class="h-screen" style="background-image: url(images/banner.jpg)">
+    <div class="h-screen py-40" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/banner.jpg)">
       <div class="container mx-auto px-4 text-white mt-40">
         <h2 class="uppercase text-4xl font-bold">
           Experience luxury like never before.
         </h2>
         <h3 class="text-xl">50+ exotic locations on globe.</h3>
+        <button class="text-white border p-2 m-2 rounded">Explore Locations</button>
       </div>
     </div>
-    <div class="bg-green-300 flex mt-4 justify-center items-center">
-      <form class="w-full pb-4 flex">
-        <div>
-          <label class="m-4">First Name</label>
-          <input
-            class="block m-2 rounded pt-2 pl-2"
-            type="text"
-            name=""
-            id=""
-            placeholder="Wajeeha"
-            required
-          />
-        </div>
+    <div class="bg-green-300 flex">
+      <form
+        class="w-full pb-4 flex flex-col justify-center items-center mx-auto"
+      >
+        <div class="flex">
+          <div>
+            <label class="m-4">First Name</label>
+            <input
+              class="block m-2 rounded pt-2 pl-2"
+              type="text"
+              name=""
+              id=""
+              placeholder="Wajeeha"
+              required
+            />
+          </div>
 
-        <div>
-          <label class="m-4">Last Name</label>
-          <input
-            class="block m-2 rounded pt-2 pl-2"
-            type="text"
-            name=""
-            id=""
-            placeholder="Hasan"
-          />
+          <div>
+            <label class="m-4">Last Name</label>
+            <input
+              class="block m-2 rounded pt-2 pl-2"
+              type="text"
+              name=""
+              id=""
+              placeholder="Hasan"
+            />
+          </div>
         </div>
-      </div>
         <div class="bg-green-300 flex">
           <div>
             <label class="m-4">Email</label>
@@ -214,24 +218,103 @@
             />
           </div>
         </div>
-    
+
         <div class="bg-green-300 flex">
           <div>
-          <label class="m-4">Message</label>
-          <textarea
-            class="block no-resize resize-none appearance-none m-2 rounded pt-2 pl-2 px-60 h-48"
-            type="text"
-            name=""
-            id=""
-            placeholder="Start Here..."
-            required></textarea>
+            <label class="m-4">Message</label>
+            <textarea
+              class="block no-resize resize-none appearance-none m-2 rounded pt-2 pl-2 px-60 h-48"
+              type="text"
+              name=""
+              id=""
+              placeholder="Start Here..."
+              required
+            ></textarea>
           </div>
         </div>
         <div class="bg-green-300 flex">
           <div class="">
-            <button class="shadow rounded text-white bg-green-500 m-2 pr-2 pl-2">Send</button>
+            <button
+              class="shadow rounded text-white bg-green-500 m-2 pr-2 pl-2"
+            >
+              Send
+            </button>
           </div>
         </div>
       </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+
+    <div class="grid grid-cols-4 ml-4">
+      <div>
+        <div class="text-green-500 font-bold">Product</div>
+        <ul>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-green-500 font-bold">Company</div>
+        <ul>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-green-500 font-bold">Address</div>
+        <ul>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-green-500 font-bold">Contact</div>
+        <div class="flex space-x-2">
+          <div>
+            <img src="images/facebook.png" alt="" />
+          </div>
+          <div>
+            <img src="images/instagram.png" alt="" />
+          </div>
+          <div>
+            <img src="images/message.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="border-t-2 text-green-500 text-center col-start-1 col-end-5 p-4">@92 Copyright yes yes</div>
+    </div>
+    </footer>
   </body>
 </html>
